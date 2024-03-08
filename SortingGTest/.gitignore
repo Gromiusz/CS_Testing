@@ -1,0 +1,30 @@
+/build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeSettings.json
+compile_commands.json
+Makefile
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Generated files
+*.vcxproj
+*.vcxproj.user
+*.sln
+*.suo
+*.pdb
+*.idb
+*.ipch/
+*.cache/
+*.log

@@ -20,5 +20,6 @@ add_executable(SortingTest-ut sortingTest-ut.cpp)
 target_link_libraries(SortingTest-ut GTest::gtest_main)
 
 include(GoogleTest)
-gtest_discover_tests(SortingTest-ut)
-add_test(NAME sortingTest_test COMMAND SortingTest-ut)
+#gtest_discover_tests(SortingTest-ut)
+#add_test(NAME sortingTest_test COMMAND SortingTest-ut)
+add_test(GTest SortingTest-ut)
